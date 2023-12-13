@@ -1,0 +1,326 @@
+body{
+    background-color: black;
+    width: 100%;
+    margin: 0rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #EDB1D2;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 0%;
+    width: 9%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 130px;
+    margin-top: -50px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+  
+.navbar a {
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    justify-content: flex-end;
+    align-content: center;
+}
+  
+.navbar a:hover {
+    background: #EDB1D2;
+    color: black;
+    text-decoration: underline #FB9F24 3px;
+    text-underline-offset: 7px;
+}
+
+.understreg {
+    text-decoration: underline #FB9F24 3px;
+    text-underline-offset: 7px;
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overskrift {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+h1{
+    color:#EDB1D2;
+    margin-top: -9px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.overskrift h2 {
+    margin-top: 0%;
+}
+
+.aftereffects {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+
+}
+
+.aftereffects video {
+    width: 30%;
+    height: auto;
+}
+
+p {
+    font-family: 'open-sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.farvet-tekst {
+    color:#FB9F24;
+}
+
+
+.andreprojekter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.andreprojekter img {
+    width: 100%;
+    height: auto;
+}
+
+.andreprojekter img:hover{
+    transform: scale(1.1);
+}
+
+.andreprojekter a {
+    width: 20%;
+    height: auto;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+h2 {
+    display: flex;
+    color:#FB9F24;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+.knap {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+  }
+
+  
+  .knap a {
+    background-color:#EDB1D2;
+    border: none;
+    color:black;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.875rem;
+    text-decoration: none;
+    border-radius: 1.25rem;
+    margin: 1%;
+    padding: 1%;
+  }
+  
+  .knap a:hover {
+    background-color:#FB9F24;
+  }
+
+footer{
+    display: flex;
+}
+
+.footer{
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: #EDB1D2;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+}
+
+.venstre {
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+footer p {
+    font-family: 'roboto', sans-serif;
+    color: black;
+}
+
+.højre {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ikonlink1 {
+    color: black;
+}
+
+.ikonlink2 {
+    color: black;
+}
+
+.ikonlink1:hover{
+    color:#FB9F24;
+}
+
+.ikonlink2:hover{
+    color:#FB9F24;
+}
+
+i{
+    font-size: 55px;
+}
+
+   /* New styles for burger menu */
+   .burger-checkbox {
+    display: none; /* Hide the checkbox input */
+  }
+  
+  .burger-label {
+    display: none; /* Hide the burger label */
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .burger-menu {
+    display: none; /* Initially hide the burger menu */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Toggle the burger menu when the checkbox is checked */
+  .burger-checkbox:checked + .burger-label + .burger-menu {
+    display: flex;
+  }
+
+@media (max-width: 500px) {
+  
+    .aftereffects {
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 10%;
+    }
+
+    .aftereffects video {
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .andreprojekter h2 {
+        font-size: 75%;
+    }
+
+    .knap {
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: space-between; /* Adjust the alignment for small screens */
+      }
+    
+      .nav-container {
+        display: none; /* Hide the original navigation links on small screens */
+      }
+    
+      .burger-label {
+        display: block; /* Show the burger label on small screens */
+        margin-left: 90%;
+      }
+  
+      .logo {
+        width: 90%;
+        height: auto;
+        margin-top: -92%;
+        margin-left: 30%;
+      }
+
+      main {
+        margin-top: 10%;
+      }
+  
+  }
+
+
+

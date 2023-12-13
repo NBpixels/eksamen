@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #EDB1D2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.navbar a:hover {
+    background: #FB9F24;
+    color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    color:#EDB1D2;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    top: 60px;
+    position: relative;
+}
+
+h2{
+  display: flex;
+  justify-content: flex-start;
+  color:#FB9F24;
+  font-family: 'roboto', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  top: 100px;
+  position: relative;
+}
+
+.cta-button {
+    background-color:#EDB1D2;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px;
+    position: relative;
+    left: 102px;
+    top: -10px;
+    color:black;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 80px;
+
+}
+
+.cta-button:hover{
+    background-color:#FB9F24;
+}
+
+
+
+

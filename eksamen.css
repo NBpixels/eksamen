@@ -1,0 +1,295 @@
+body {
+    background-color: black;
+    width: 100%;
+    margin: 0rem;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #edb1d2;
+    width: 100%;
+    align-items: flex-start;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+  }
+  .navbar a {
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    justify-content: flex-end;
+    align-content: center;
+  }
+  
+  .navbar a:hover {
+    background: #edb1d2;
+    color: black;
+    text-decoration: underline #fb9f24 3px;
+    text-underline-offset: 7px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 0%;
+    width: 9%;
+    height: auto;
+  }
+  
+  .logo {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-left: 130px;
+    margin-top: -50px;
+  }
+  
+  .understreg {
+    text-decoration: underline #fb9f24 3px;
+    text-underline-offset: 7px;
+  }
+  
+  main {
+    display: flex;
+  }
+
+  .main-tekst {
+    display: flex;
+    margin-right: 25%;
+    flex-direction: column;
+  }
+  
+  .overskrift {
+    display: flex;
+  }
+  
+  h1 {
+    color: #edb1d2;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 9.375rem;
+    margin-left: 18.5%;
+    margin-top: 50px;
+  }
+  
+  .underoverskrift {
+    display: flex;
+  }
+  
+  h2 {
+    color: #fb9f24;
+    font-family: "roboto", sans-serif;
+    font-size: 2.5rem;
+    margin-left: 19.3%;
+    margin-top: -90px;
+  }
+  
+  .paragraf {
+    display: flex;
+  }
+  
+  main p {
+    color: white;
+    font-family: "open-sans", sans-serif;
+    font-size: 1.563rem;
+    margin-left: 19.5%;
+  }
+  
+  .knapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 17%;
+  }
+  
+  .cta-button {
+    background-color: #edb1d2;
+    border: none;
+    color: black;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.875rem;
+    text-decoration: none;
+    border-radius: 1.25rem;
+    margin: 2%;
+    padding: 2%;
+  }
+  
+  .cta-button:hover {
+    background-color: #fb9f24;
+  }
+  
+  .billede {
+    display: flex;
+  }
+  
+  .mig {
+    max-width: 55%;
+    height: auto;
+    margin-left: 75%;
+    margin-top: -50%;
+  }
+  
+  footer {
+    display: flex;
+  }
+  footer p {
+    font-family: "roboto", sans-serif;
+    color: black;
+  }
+  
+  .footer {
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: #edb1d2;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+  }
+  
+  .venstre {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h3 {
+    font-family: "roboto", sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .højre {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .ikonlink1 {
+    color: black;
+  }
+  
+  .ikonlink2 {
+    color: black;
+  }
+  
+  .ikonlink1:hover {
+    color: #fb9f24;
+  }
+  
+  .ikonlink2:hover {
+    color: #fb9f24;
+  }
+  
+  i {
+    font-size: 55px;
+  }
+
+   .burger-checkbox {
+    display: none;
+  }
+  
+  .burger-label {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .burger-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .burger-checkbox:checked + .burger-label + .burger-menu {
+    display: flex;
+  }
+
+  @media (max-width: 500px) {
+
+    .main-tekst {
+      justify-content: flex-start;
+      margin-right: 50%;
+    }
+
+    .knapper {
+      flex-direction: column;
+    }
+
+    .knapper a {
+      font-size: 1rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: -20%;
+    }
+
+    main p {
+      font-size: 1rem;
+    }
+
+    .knapper {
+      border-radius: 0.5rem;
+    }
+
+    .cta-button {
+      margin-right: 55%;
+    }
+
+    .billede {
+      margin-right: 25%;
+      margin-top: -20%;
+    }
+
+    .mig {
+      max-width: 55%;
+      height: auto;
+      margin-top: -50%;
+      margin-right: 25%;
+    }
+
+    .navbar {
+      flex-wrap: wrap;
+      justify-content: space-between; 
+    }
+  
+    .nav-container {
+      display: none;
+    }
+  
+    .burger-label {
+      display: block; 
+      margin-left: 90%;
+    }
+
+    .logo {
+      width: 90%;
+      height: auto;
+      margin-top: -92%;
+      margin-left: 30%;
+    }
+  }
